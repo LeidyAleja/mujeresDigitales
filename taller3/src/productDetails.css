@@ -1,0 +1,32 @@
+.product-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .empty {
+    color: #aaa;
+  }
+  
+  .details-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .details-name {
+    font-size: 1.5rem;
+    margin: 16px 0;
+  }
+  
+  .details-description {
+    color: #555;
+    margin-bottom: 16px;
+  }
+  
+  .details-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
