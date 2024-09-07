@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  background-color: #ecbbba;
+  font-family:cursive;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+label{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 40px;
+}
