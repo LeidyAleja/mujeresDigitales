@@ -1,0 +1,91 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .advice-box {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Advice heading */
+  h1 {
+    font-size: 16px;
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+  
+  /* Advice text */
+  p {
+    font-size: 28px;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    margin-bottom: 20px;
+  }
+  
+  /* Dice button */
+  button.dado {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.dado:hover {
+    background-color: hsl(150, 100%, 80%);
+  }
+  
+  button.dado img {
+    width: 20px;
+  }
+  
+  /* Dividers */
+  .divider-desktop {
+    display: none;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .divider-mobile {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Responsive layout */
+  @media (min-width: 768px) {
+    .divider-desktop {
+      display: block;
+    }
+    .divider-mobile {
+      display: none;
+    }
+  
+    h1 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 28px;
+    }
+  }
+  
